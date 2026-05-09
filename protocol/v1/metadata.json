@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "serializedMessageBudgetBytes": 1024,
+  "messageKinds": {
+    "point": {
+      "requiresAcknowledgement": true
+    },
+    "timer": {
+      "requiresAcknowledgement": true
+    },
+    "note": {
+      "requiresAcknowledgement": false
+    },
+    "command": {
+      "requiresAcknowledgement": true
+    }
+  }
+}

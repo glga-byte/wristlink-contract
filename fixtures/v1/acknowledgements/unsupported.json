@@ -1,0 +1,9 @@
+{
+  "v": 1,
+  "id": "01HX7Y8Z9ABCDEFGHJKMNPQS4X",
+  "kind": "ack",
+  "ackFor": "01HX7Y8Z9ABCDEFGHJKMNPQRWX",
+  "status": "unsupported",
+  "receivedAt": "2026-05-09T12:03:05.000Z",
+  "reason": "Command not installed"
+}

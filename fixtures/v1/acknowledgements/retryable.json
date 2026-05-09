@@ -1,0 +1,9 @@
+{
+  "v": 1,
+  "id": "01HX7Y8Z9ABCDEFGHJKMNPQS5X",
+  "kind": "ack",
+  "ackFor": "01HX7Y8Z9ABCDEFGHJKMNPQRSX",
+  "status": "retryable",
+  "receivedAt": "2026-05-09T12:00:10.000Z",
+  "reason": "Watch storage busy"
+}

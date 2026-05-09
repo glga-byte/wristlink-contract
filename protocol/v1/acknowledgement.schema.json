@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://wristlink.app/contract/v1/acknowledgement.schema.json",
+  "title": "WristLink watch-to-phone acknowledgement v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["v", "id", "kind", "ackFor", "status", "receivedAt"],
+  "properties": {
+    "v": {
+      "const": 1
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[0-9A-HJKMNP-TV-Z]{26}$"
+    },
+    "kind": {
+      "const": "ack"
+    },
+    "ackFor": {
+      "type": "string",
+      "pattern": "^[0-9A-HJKMNP-TV-Z]{26}$"
+    },
+    "status": {
+      "enum": ["accepted", "rejected", "unsupported", "retryable"]
+    },
+    "receivedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "reason": {
+      "type": "string",
+      "minLength": 1
+    }
+  }
+}

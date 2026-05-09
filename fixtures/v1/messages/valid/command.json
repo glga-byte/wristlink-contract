@@ -1,0 +1,13 @@
+{
+  "v": 1,
+  "id": "01HX7Y8Z9ABCDEFGHJKMNPQRWX",
+  "kind": "command",
+  "createdAt": "2026-05-09T12:03:00.000Z",
+  "ttlSec": 60,
+  "payload": {
+    "name": "clear",
+    "args": {
+      "scope": "timers"
+    }
+  }
+}
