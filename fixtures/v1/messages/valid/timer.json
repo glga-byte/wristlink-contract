@@ -1,0 +1,10 @@
+{
+  "v": 1,
+  "id": "01HX7Y8Z9ABCDEFGHJKMNPQRTX",
+  "kind": "timer",
+  "createdAt": "2026-05-09T12:01:00.000Z",
+  "payload": {
+    "label": "Tea",
+    "durationSec": 180
+  }
+}

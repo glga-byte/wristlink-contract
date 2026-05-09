@@ -1,0 +1,9 @@
+{
+  "v": 1,
+  "id": "not-a-ulid",
+  "kind": "note",
+  "createdAt": "2026-05-09T12:09:00.000Z",
+  "payload": {
+    "body": "Bad id"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "v": 1,
+  "id": "01HX7Y8Z9ABCDEFGHJKMNPQS3X",
+  "kind": "ack",
+  "ackFor": "01HX7Y8Z9ABCDEFGHJKMNPQRTX",
+  "status": "rejected",
+  "receivedAt": "2026-05-09T12:01:05.000Z",
+  "reason": "Timer duration unsupported"
+}
