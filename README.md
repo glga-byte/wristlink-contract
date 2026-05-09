@@ -7,6 +7,9 @@ This repository is the source of truth for the Flutter phone app and the
 separate Garmin Connect IQ watch app. App repositories consume these schemas,
 fixtures, and notes; they do not redefine incompatible message shapes locally.
 
+Agents changing message payloads, acknowledgements, schemas, fixtures, or
+transport mappings should read `AGENTS.md` before editing consuming app code.
+
 ## Version 1
 
 Version 1 assets live under `protocol/v1/` and `fixtures/v1/`.
