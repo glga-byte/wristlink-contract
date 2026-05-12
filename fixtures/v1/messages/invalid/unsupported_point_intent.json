@@ -1,0 +1,11 @@
+{
+  "v": 1,
+  "id": "01HX7Y8Z9ABCDEFGHJKMNPQT0X",
+  "kind": "point",
+  "createdAt": "2026-05-09T12:07:00.000Z",
+  "payload": {
+    "intent": "route",
+    "lat": 52.52,
+    "lon": 13.405
+  }
+}

@@ -18,7 +18,9 @@ The serialized JSON envelope must fit within 1024 UTF-8 bytes.
 
 ## Payload Kinds
 
-- `point`: latitude/longitude point with optional label and note
+- `point`: latitude/longitude point with required `intent` and optional label
+  and note. Intent is either `navigate` to request watch navigation or
+  `save_waypoint` to request waypoint saving.
 - `timer`: countdown timer with a label and duration in seconds
 - `note`: short textual note with optional title
 - `command`: named command with optional JSON-object arguments

@@ -98,8 +98,11 @@
     "pointPayload": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["lat", "lon"],
+      "required": ["intent", "lat", "lon"],
       "properties": {
+        "intent": {
+          "enum": ["navigate", "save_waypoint"]
+        },
         "label": {
           "type": "string",
           "minLength": 1
