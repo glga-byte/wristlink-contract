@@ -5,6 +5,7 @@
   "createdAt": "2026-05-09T12:00:00.000Z",
   "ttlSec": 86400,
   "payload": {
+    "intent": "navigate",
     "label": "Trailhead",
     "lat": 52.52,
     "lon": 13.405,
